@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B40EB1FF25A4B2CF008BF4E0 /* WhatsApp Image 2021-01-03 at 2.46.49 PM (1).jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B40EB1FE25A4B2CF008BF4E0 /* WhatsApp Image 2021-01-03 at 2.46.49 PM (1).jpeg */; };
+		B47DC73425A5AC7B002E71B0 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47DC73325A5AC7B002E71B0 /* test.swift */; };
 		B4D926F5257E06F10044B859 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D926F4257E06F10044B859 /* AppDelegate.swift */; };
 		B4D926F7257E06F10044B859 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D926F6257E06F10044B859 /* SceneDelegate.swift */; };
 		B4D926F9257E06F10044B859 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D926F8257E06F10044B859 /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B40EB1FE25A4B2CF008BF4E0 /* WhatsApp Image 2021-01-03 at 2.46.49 PM (1).jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "WhatsApp Image 2021-01-03 at 2.46.49 PM (1).jpeg"; sourceTree = "<group>"; };
+		B47DC73325A5AC7B002E71B0 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 		B4D926F1257E06F10044B859 /* workaround.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = workaround.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4D926F4257E06F10044B859 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4D926F6257E06F10044B859 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,9 +62,11 @@
 		B4D926F3257E06F10044B859 /* workaround */ = {
 			isa = PBXGroup;
 			children = (
+				B40EB1FE25A4B2CF008BF4E0 /* WhatsApp Image 2021-01-03 at 2.46.49 PM (1).jpeg */,
 				B4D926F4257E06F10044B859 /* AppDelegate.swift */,
 				B4D926F6257E06F10044B859 /* SceneDelegate.swift */,
 				B4D926F8257E06F10044B859 /* ViewController.swift */,
+				B47DC73325A5AC7B002E71B0 /* test.swift */,
 				B4D926FA257E06F10044B859 /* Main.storyboard */,
 				B4D92700257E06F40044B859 /* Assets.xcassets */,
 				B4D92702257E06F40044B859 /* LaunchScreen.storyboard */,
@@ -131,6 +137,7 @@
 				B4D92704257E06F40044B859 /* LaunchScreen.storyboard in Resources */,
 				B4D92701257E06F40044B859 /* Assets.xcassets in Resources */,
 				B4D926FC257E06F10044B859 /* Main.storyboard in Resources */,
+				B40EB1FF25A4B2CF008BF4E0 /* WhatsApp Image 2021-01-03 at 2.46.49 PM (1).jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +151,7 @@
 				B4D926F9257E06F10044B859 /* ViewController.swift in Sources */,
 				B4D926F5257E06F10044B859 /* AppDelegate.swift in Sources */,
 				B4D926F7257E06F10044B859 /* SceneDelegate.swift in Sources */,
+				B47DC73425A5AC7B002E71B0 /* test.swift in Sources */,
 				B4D926FF257E06F10044B859 /* workaround.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
