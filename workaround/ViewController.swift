@@ -6,7 +6,9 @@
 //  Copyright © 2020 FinnovationZ. All rights reserved.
 //
 
-
+class SwiftClosure{
+    var difficulty : Int? = 0
+}
 
 class hello
 {
@@ -20,6 +22,15 @@ class hello
 }
 
 import UIKit
+
+class tuplesss
+{
+    static let sharedinstance = tuplesss()
+    func printname()
+    {
+        print("Vignesh Krish")
+    }
+}
 
 struct Knife {
 }
@@ -102,11 +113,50 @@ func output(text:String, num:Int) {
 
 let gettest = test()
 
+enum drinks{
+    case no(Int,Int,Int)
+    case name(String)
+}
+
+
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        tuplesss.sharedinstance.printname()
+        
+        self.tuplesd(name: "Vignesh", age: 31)
+        
+        let tuples = (name:"vicky", Age: 5)
+        print(tuples.name)
+        
+        var x:Int? = nil
+        print(x? = 10)
+        var y:Int? = 10
+        print(y? = 5)
+        
+        
+        var swiftcourse1 = SwiftClosure()
+        print(swiftcourse1.difficulty)
+        
+        let years = [15,2,67,4,5]
+        let sum = years.filter({ $0 < 10 }).map({ $0 * 2}).reduce(5, +)
+        print("Sum",sum)
+        
+        var thing = "Turing"
+        var count = 0
+        let closure = {[thing] in
+            count += 1
+            print("I love \(thing) in \(count)")
+        }
+        count = 2019
+        thing = "Swift"
+        closure()
+        
+        
+    
         output(x: "Hello")
         output(x: 2)
         
@@ -144,10 +194,7 @@ class ViewController: UIViewController {
         print("Age is",gettest.age)
         print("Name is",gettest.name)
  */
-        var x = 10
-        x = Int(10.5)
-        print(x)
-
+ 
         
         
         let gethello = hello.test
@@ -196,8 +243,13 @@ class ViewController: UIViewController {
         let name = "Hello" + person + "!"
         return name
     }
-
     
+    func tuplesd(name: String, age: Int)
+    {
+      print("Name is \(name)\nAge is \(age)")
+     
+    }
+
 
 }
 

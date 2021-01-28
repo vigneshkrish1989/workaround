@@ -20,6 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //WHATSAPP
         return true
     }
+    
 
     // MARK: UISceneSession Lifecycle
 

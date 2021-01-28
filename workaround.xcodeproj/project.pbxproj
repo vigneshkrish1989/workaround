@@ -20,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		B40EB1FE25A4B2CF008BF4E0 /* WhatsApp Image 2021-01-03 at 2.46.49 PM (1).jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "WhatsApp Image 2021-01-03 at 2.46.49 PM (1).jpeg"; sourceTree = "<group>"; };
+		B474396925B0460F00AF484C /* workaround.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = workaround.entitlements; sourceTree = "<group>"; };
 		B47DC73325A5AC7B002E71B0 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 		B4D926F1257E06F10044B859 /* workaround.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = workaround.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4D926F4257E06F10044B859 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +63,7 @@
 		B4D926F3257E06F10044B859 /* workaround */ = {
 			isa = PBXGroup;
 			children = (
+				B474396925B0460F00AF484C /* workaround.entitlements */,
 				B40EB1FE25A4B2CF008BF4E0 /* WhatsApp Image 2021-01-03 at 2.46.49 PM (1).jpeg */,
 				B4D926F4257E06F10044B859 /* AppDelegate.swift */,
 				B4D926F6257E06F10044B859 /* SceneDelegate.swift */,
@@ -296,6 +298,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = workaround/workaround.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FMNA7Q535D;
 				INFOPLIST_FILE = workaround/Info.plist;
@@ -314,6 +317,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = workaround/workaround.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FMNA7Q535D;
 				INFOPLIST_FILE = workaround/Info.plist;
